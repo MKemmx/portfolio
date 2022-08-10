@@ -19,7 +19,7 @@ const Divider = () => {
     },
     {
       name: "React Projects",
-      number: 13,
+      number: 4,
       icon: <AiOutlineProject size={50} />,
     },
     {
