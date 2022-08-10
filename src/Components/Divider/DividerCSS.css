@@ -1,0 +1,47 @@
+.divider {
+  padding: 30px 0;
+  width: 100%;
+  background-color: #3f3d56;
+  margin: 20px 0;
+}
+
+.divider-container {
+  color: #fff;
+  width: 1400px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0;
+}
+
+.card {
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.card-icon {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.card p {
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1420px) {
+  .divider-container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .divider-container {
+    grid-template-columns: 1fr;
+    padding: 0;
+    grid-row-gap: 120px;
+  }
+}

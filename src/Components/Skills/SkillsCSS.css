@@ -1,0 +1,52 @@
+.skills {
+  padding: 75px 0 50px 0;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  width: 950px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.svg-container {
+  margin: 15px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.svg-container svg {
+  width: 150px;
+  height: 150px;
+}
+
+@media screen and (max-width: 1000px) {
+  .skills-container {
+    width: 95%;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .svg-container {
+    padding-inline: 30px;
+  }
+
+  .svg-container svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .svg-container {
+    padding-inline: 0;
+  }
+}
