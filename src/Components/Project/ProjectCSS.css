@@ -26,7 +26,8 @@
   flex-direction: column;
   padding: 20px 0;
   border-radius: 20px;
-  background-color: #f4f4f4;
+  background-color: #140941;
+  color: #fff;
 }
 
 .project-image {
@@ -58,9 +59,8 @@
 }
 
 .project-link {
-  width: fit-content;
+  width: 100%;
   padding: 0 15px;
-  background-color: #3f3d56;
   border-radius: 10px;
   margin-top: 20px;
 }
@@ -88,8 +88,6 @@
     width: 95%;
   }
 }
-
-/* .project-container */
 
 @media screen and (max-width: 800px) {
   .project-container {

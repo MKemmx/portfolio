@@ -15,11 +15,8 @@ const Navbar = () => {
     <>
       <div className="header">
         <div className="title">
-          <h1>
-            <a href="#home">M</a>
-          </h1>
+          <h1>M{/* <a href="#home">M</a> */}</h1>
         </div>
-
         <div>
           <motion.svg
             className="menu-btn"

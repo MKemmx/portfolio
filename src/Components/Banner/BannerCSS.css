@@ -1,7 +1,7 @@
 .banner {
   padding: 120px 0;
   width: 100%;
-  background-color: #cecbcb;
+  background-color: #f70041;
   z-index: -2;
   pointer-events: none;
   overflow: hidden;
@@ -12,6 +12,7 @@
   margin-inline: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  color: #fff;
 }
 
 .banner-left {
@@ -29,6 +30,20 @@
   display: flex;
 }
 
+.banner-svg {
+  position: relative;
+}
+
+.banner-right img {
+  object-fit: contain;
+  width: 70%;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(25%, -50%);
+}
+
 @media screen and (max-width: 1430px) {
   .banner-container {
     width: 90%;
@@ -40,9 +55,9 @@
     width: 95%;
   }
 
-  .banner-right img {
+  /* .banner-right img {
     width: 100%;
-  }
+  } */
 }
 
 @media screen and (max-width: 730px) {

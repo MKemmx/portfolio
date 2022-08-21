@@ -1,7 +1,8 @@
 .about {
   padding: 90px 0;
   width: 100%;
-  background-color: #fff;
+  background-color: #140941;
+  color: #fff;
 }
 
 .about-container {
@@ -34,7 +35,7 @@
 }
 
 .resume-btn {
-  background-color: #3f3d56;
+  background-color: #f70041;
   outline: none;
   border: none;
   color: #fff;

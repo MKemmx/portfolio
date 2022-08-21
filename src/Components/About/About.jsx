@@ -18,7 +18,9 @@ const About = () => {
             className="about-left"
           >
             <h2>About Me</h2>
-            <p>Hi, I'm Kim, fresh graduate from ACLC College Tacloban</p>
+            <p>
+              Hi, I'm Mark Kemm, a passionate web developer from Tanauan, Leyte
+            </p>
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
