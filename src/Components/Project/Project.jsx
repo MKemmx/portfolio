@@ -2,7 +2,7 @@ import React from "react";
 import "./ProjectCSS.css";
 
 // React Icons
-import { AiFillGithub, AiFillEye } from "react-icons/ai";
+import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
 
 // Open Tab Utility
 import { openInNewTab } from "../../utils/OpenTab";
@@ -78,7 +78,7 @@ const Project = () => {
                 className="github"
                 size={30}
               />
-              <AiFillEye
+              <AiOutlineLink
                 onClick={() => {
                   project.pageLink === ""
                     ? null

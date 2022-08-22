@@ -1,7 +1,7 @@
 .banner {
   padding: 120px 0;
   width: 100%;
-  background-color: #f70041;
+  background-color: #9e7bb8;
   z-index: -2;
   pointer-events: none;
   overflow: hidden;
@@ -12,12 +12,12 @@
   margin-inline: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  color: #fff;
 }
 
 .banner-left {
   width: 100%;
   padding: 180px 0;
+  color: #fff;
 }
 
 .name {
