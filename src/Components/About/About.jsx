@@ -19,7 +19,7 @@ const About = () => {
           >
             <h2>About Me</h2>
             <p>
-              Hi, I'm Mark Kemm, a passionate web developer from Tanauan, Leyte
+              Hi, I'm Mark Kemm, a passionate web developer from Tanauan, Leyte.
             </p>
             <motion.button
               whileHover={{ scale: 1.1 }}

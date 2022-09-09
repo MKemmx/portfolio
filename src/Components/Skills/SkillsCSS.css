@@ -1,8 +1,7 @@
 .skills {
   padding: 75px 0 50px 0;
   width: 100%;
-  background-color: #fff;
-  margin-bottom: 20px;
+  background-color: #43597d;
 }
 
 .skills-container {
@@ -22,6 +21,7 @@
 .skills-title {
   text-align: center;
   margin-bottom: 20px;
+  color: #fff;
 }
 
 .svg-container svg {

@@ -1,7 +1,7 @@
 .about {
   padding: 90px 0;
   width: 100%;
-  background-color: #fff;
+  background-color: #43597d;
   color: #222;
 }
 
@@ -12,6 +12,7 @@
   grid-template-columns: 1fr 1fr;
   padding: 30px 20px;
   grid-template-areas: "b a";
+  color: #fff;
 }
 
 .about-left {
@@ -35,7 +36,7 @@
 }
 
 .resume-btn {
-  background-color: #472976;
+  background-color: #2b3240;
   outline: none;
   border: none;
   color: #fff;

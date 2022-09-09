@@ -11,9 +11,18 @@ import { openInNewTab } from "../../utils/OpenTab";
 import Starbucks from "../../ProjectImages/starbucks.png";
 import RPS from "../../ProjectImages/rps.png";
 import Eccomerce from "../../ProjectImages/eccomerce-react.png";
+import Spes from "../../ProjectImages/spes-system.png";
 
 const Project = () => {
   const projects = [
+    {
+      title: "SPES Online Monitoring System",
+      subTitle: "SPES online job hiring and applying system.",
+      tools: ["HTML", "CSS", "React JS", "Express", "Mongo DB", "Tailwind CSS"],
+      image: Spes,
+      githubLink: "",
+      pageLink: "https://spes-tolosa-system.vercel.app/",
+    },
     {
       title: "Tech Eccomerce",
       subTitle: "Eccomerce app integration with fakestoreapi data.",
@@ -72,7 +81,9 @@ const Project = () => {
             <div className="project-link">
               <AiFillGithub
                 onClick={() => {
-                  openInNewTab(`${project.githubLink}`);
+                  project.githubLink === ""
+                    ? null
+                    : openInNewTab(`${project.githubLink}`);
                 }}
                 color="#fff"
                 className="github"

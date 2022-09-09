@@ -41,7 +41,6 @@ const Contact = () => {
                 <p> Facebook </p>
               </div>
             </div>
-
             <div
               onClick={() => {
                 openInNewTab("https://github.com/MKemmx");
@@ -54,7 +53,12 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="contact-details">
+            <div
+              onClick={() => {
+                openInNewTab("https://www.linkedin.com/in/mkemmx/");
+              }}
+              className="contact-details"
+            >
               <AiFillLinkedin className="contact-icon" size={24} />
               <div className="socialm-name">
                 <p> Linkedin </p>

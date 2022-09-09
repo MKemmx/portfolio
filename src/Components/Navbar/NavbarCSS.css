@@ -1,5 +1,5 @@
 .header {
-  background: #472976;
+  background: #43597d;
   width: 100%;
   position: sticky;
   top: 0;
@@ -15,7 +15,7 @@
 }
 
 .nav {
-  background-color: #472976;
+  background-color: #43597d;
   position: fixed;
   height: 100vh;
   width: 100%;

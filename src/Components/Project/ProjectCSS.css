@@ -1,7 +1,7 @@
 .project {
   width: 100%;
-  margin-bottom: 20px;
-  padding: 70px 0 50px 0;
+  padding: 90px 0 70px 0;
+  background-color: #2b3240;
 }
 
 .project-title {
@@ -9,6 +9,7 @@
   text-align: center;
   padding: 10px 0;
   margin-bottom: 10px;
+  color: #fff;
 }
 
 .project-container {
@@ -26,7 +27,7 @@
   flex-direction: column;
   padding: 20px 0;
   border-radius: 20px;
-  background-color: #472976;
+  background-color: #43597d;
   color: #fff;
 }
 
@@ -71,12 +72,12 @@
 }
 
 .tag-btn {
-  padding: 8px 15px;
+  padding: 10px 15px;
   margin-right: 10px;
   border-radius: 15px;
   border: none;
   outline: none;
-  background-color: #3f3d56;
+  background-color: #2b3240;
   color: #fff;
   display: flex;
   align-items: center;
