@@ -12,9 +12,18 @@ import Starbucks from "../../ProjectImages/starbucks.png";
 import RPS from "../../ProjectImages/rps.png";
 import Eccomerce from "../../ProjectImages/eccomerce-react.png";
 import Spes from "../../ProjectImages/spes-system.png";
+import Gym from "../../ProjectImages/reservation-system.png";
 
 const Project = () => {
   const projects = [
+    {
+      title: "Tanauan Civic Center Reservation System",
+      subTitle: "Reservation System for our municipal town gym.",
+      tools: ["HTML", "CSS", "React JS", "Express", "Mongo DB", "Tailwind CSS"],
+      image: Gym,
+      githubLink: "",
+      pageLink: "",
+    },
     {
       title: "SPES Online Monitoring System",
       subTitle: "SPES online job hiring and applying system.",
@@ -31,15 +40,15 @@ const Project = () => {
       githubLink: "https://github.com/MKemmx/eccomerce-front-end",
       pageLink: "https://eccomerce-front-end-reactjs.vercel.app/",
     },
-    {
-      title: "Starbucks Clone",
-      subTitle: "Starbucks landing page clone.",
-      tools: ["HTML", "CSS", "JavaScript"],
-      image: Starbucks,
-      githubLink:
-        "https://github.com/MKemmx/starbucks-clone/tree/main/starbucks_clone",
-      pageLink: "",
-    },
+    // {
+    //   title: "Starbucks Clone",
+    //   subTitle: "Starbucks landing page clone.",
+    //   tools: ["HTML", "CSS", "JavaScript"],
+    //   image: Starbucks,
+    //   githubLink:
+    //     "https://github.com/MKemmx/starbucks-clone/tree/main/starbucks_clone",
+    //   pageLink: "",
+    // },
     {
       title: "Rock Paper Scissors Lizard Spock",
       subTitle: "Front-end mentor challenge.",
@@ -75,7 +84,9 @@ const Project = () => {
             </div>
             <div className="project-tags">
               {project.tools.map((tool, index) => (
-                <button className="tag-btn"> {tool} </button>
+                <button key={index} className="tag-btn">
+                  {tool}
+                </button>
               ))}
             </div>
             <div className="project-link">

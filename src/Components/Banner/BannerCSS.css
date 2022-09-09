@@ -7,6 +7,120 @@
   overflow: hidden;
 }
 
+.dev-icons {
+  padding: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  z-index: 100;
+  object-fit: cover;
+  position: absolute;
+}
+
+.html {
+  background-color: #f09f8b;
+  top: 5%;
+  right: 55%;
+  box-shadow: 1px 1px 16px 14px #ec9f8c;
+  animation: htmlMove 3s infinite linear;
+}
+
+.css {
+  background-color: #549cd0;
+  top: 40%;
+  right: 80%;
+  box-shadow: 1px 1px 16px 14px #88bfe7;
+  animation: cssMove 5s infinite linear;
+}
+
+.javascript {
+  background-color: rgb(118, 128, 66);
+  top: 20%;
+  right: 15%;
+  box-shadow: 1px 1px 16px 14px #d9e788;
+  animation: jsMove 7s infinite linear;
+}
+
+.react {
+  background-color: #21424b;
+  top: 70%;
+  right: 30%;
+  box-shadow: 1px 1px 16px 14px #366673;
+  animation: reactMove 4s infinite linear;
+}
+
+@-webkit-keyframes htmlMove {
+  0% {
+    top: 5%;
+  }
+  25% {
+    top: 10%;
+  }
+  50% {
+    top: 15%;
+  }
+  75% {
+    top: 10%;
+  }
+  100% {
+    top: 5%;
+  }
+}
+
+@-webkit-keyframes cssMove {
+  0% {
+    top: 40%;
+  }
+  25% {
+    top: 30%;
+  }
+  50% {
+    top: 25%;
+  }
+  75% {
+    top: 30%;
+  }
+  100% {
+    top: 40%;
+  }
+}
+
+@-webkit-keyframes jsMove {
+  0% {
+    top: 25%;
+  }
+  25% {
+    top: 18%;
+  }
+  50% {
+    top: 12%;
+  }
+  75% {
+    top: 20%;
+  }
+  100% {
+    top: 25%;
+  }
+}
+
+@-webkit-keyframes reactMove {
+  0% {
+    top: 48%;
+  }
+  25% {
+    top: 55%;
+  }
+  50% {
+    top: 60%;
+  }
+  75% {
+    top: 50%;
+  }
+  100% {
+    top: 48%;
+  }
+}
+
 .banner-container {
   width: 1400px;
   margin-inline: auto;
@@ -28,6 +142,7 @@
 
 .banner-right {
   display: flex;
+  position: relative;
 }
 
 .banner-svg {
@@ -54,10 +169,6 @@
   .banner-container {
     width: 95%;
   }
-
-  /* .banner-right img {
-    width: 100%;
-  } */
 }
 
 @media screen and (max-width: 730px) {
@@ -73,6 +184,54 @@
 
   .banner-container {
     grid-template-columns: 1fr;
+  }
+
+  .dev-icons {
+    padding: 8px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .html {
+    top: 5%;
+    left: 7%;
+  }
+
+  .css {
+    top: 40%;
+    right: 25%;
+  }
+
+  .javascript {
+    top: 20%;
+    right: 10%;
+  }
+
+  .react {
+    top: 48%;
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .html {
+    top: 5%;
+    left: 20%;
+  }
+
+  .css {
+    top: 40%;
+    right: 20%;
+  }
+
+  .javascript {
+    top: 20%;
+    right: 0%;
+  }
+
+  .react {
+    top: 48%;
+    left: 10%;
   }
 }
 
@@ -98,5 +257,31 @@
   .name {
     font-size: 1.8rem;
     margin-bottom: 10px;
+  }
+
+  .dev-icons {
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .html {
+    top: 5%;
+    left: 25%;
+  }
+
+  .css {
+    top: 40%;
+    right: 15%;
+  }
+
+  .javascript {
+    top: 20%;
+    right: 30%;
+  }
+
+  .react {
+    top: 48%;
+    left: 12%;
   }
 }
