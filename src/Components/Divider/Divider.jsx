@@ -32,8 +32,8 @@ const Divider = () => {
   return (
     <div className="divider">
       <div className="divider-container">
-        {dividerContent.map((item) => (
-          <div className="card">
+        {dividerContent.map((item, index) => (
+          <div key={index} className="card">
             <div className="card-icon">{item.icon}</div>
             <div className="card-text">
               <h2>

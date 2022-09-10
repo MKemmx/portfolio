@@ -10,4 +10,5 @@ a {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
+  /* outline: 1px solid limegreen; */
 }

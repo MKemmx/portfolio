@@ -69,8 +69,8 @@ const Project = () => {
           <div
             key={project.title}
             data-aos="fade-up"
-            data-aos-delay="1000"
-            data-aos-duration="1500"
+            data-aos-delay="800"
+            data-aos-duration="1700"
             className="project-card"
           >
             <img

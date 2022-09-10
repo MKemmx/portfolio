@@ -18,34 +18,34 @@
 }
 
 .html {
-  background-color: #f09f8b;
+  background-color: #de927f;
   top: 5%;
   right: 55%;
-  box-shadow: 1px 1px 16px 14px #ec9f8c;
+  box-shadow: 1px 1px 13px 4px #c84a2b;
   animation: htmlMove 3s infinite linear;
 }
 
 .css {
-  background-color: #549cd0;
+  background-color: #55a5de;
   top: 40%;
   right: 80%;
-  box-shadow: 1px 1px 16px 14px #88bfe7;
+  box-shadow: 1px 1px 13px 4px #749ab6;
   animation: cssMove 5s infinite linear;
 }
 
 .javascript {
-  background-color: rgb(118, 128, 66);
+  background-color: #c8b436;
   top: 20%;
   right: 15%;
-  box-shadow: 1px 1px 16px 14px #d9e788;
-  animation: jsMove 7s infinite linear;
+  box-shadow: 1px 1px 13px 4px #e0cd52;
+  animation: jsMove 3s infinite linear;
 }
 
 .react {
-  background-color: #21424b;
-  top: 70%;
+  background-color: #182c31;
+  top: 90%;
   right: 30%;
-  box-shadow: 1px 1px 16px 14px #366673;
+  box-shadow: 1px 1px 13px 4px #61dafb;
   animation: reactMove 4s infinite linear;
 }
 
@@ -53,14 +53,11 @@
   0% {
     top: 5%;
   }
-  25% {
-    top: 10%;
-  }
   50% {
-    top: 15%;
+    top: 20%;
   }
   75% {
-    top: 10%;
+    top: 15%;
   }
   100% {
     top: 5%;
@@ -87,37 +84,37 @@
 
 @-webkit-keyframes jsMove {
   0% {
-    top: 25%;
-  }
-  25% {
-    top: 18%;
-  }
-  50% {
-    top: 12%;
-  }
-  75% {
     top: 20%;
   }
-  100% {
+  25% {
     top: 25%;
+  }
+  50% {
+    top: 30%;
+  }
+  75% {
+    top: 25%;
+  }
+  100% {
+    top: 20%;
   }
 }
 
 @-webkit-keyframes reactMove {
   0% {
-    top: 48%;
+    top: 90%;
   }
   25% {
-    top: 55%;
+    top: 80%;
   }
   50% {
-    top: 60%;
+    top: 75%;
   }
   75% {
-    top: 50%;
+    top: 80%;
   }
   100% {
-    top: 48%;
+    top: 90%;
   }
 }
 
@@ -156,18 +153,16 @@
   position: absolute;
   top: 50%;
   right: 50%;
-  transform: translate(25%, -50%);
+  transform: translate(20%, -50%);
 }
 
 @media screen and (max-width: 1430px) {
   .banner-container {
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 1260px) {
-  .banner-container {
     width: 95%;
+  }
+  .dev-icons {
+    width: 65px;
+    height: 65px;
   }
 }
 
@@ -190,48 +185,6 @@
     padding: 8px;
     width: 60px;
     height: 60px;
-  }
-
-  .html {
-    top: 5%;
-    left: 7%;
-  }
-
-  .css {
-    top: 40%;
-    right: 25%;
-  }
-
-  .javascript {
-    top: 20%;
-    right: 10%;
-  }
-
-  .react {
-    top: 48%;
-    left: 20%;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .html {
-    top: 5%;
-    left: 20%;
-  }
-
-  .css {
-    top: 40%;
-    right: 20%;
-  }
-
-  .javascript {
-    top: 20%;
-    right: 0%;
-  }
-
-  .react {
-    top: 48%;
-    left: 10%;
   }
 }
 
@@ -263,25 +216,5 @@
     padding: 8px;
     width: 40px;
     height: 40px;
-  }
-
-  .html {
-    top: 5%;
-    left: 25%;
-  }
-
-  .css {
-    top: 40%;
-    right: 15%;
-  }
-
-  .javascript {
-    top: 20%;
-    right: 30%;
-  }
-
-  .react {
-    top: 48%;
-    left: 12%;
   }
 }

@@ -151,8 +151,8 @@ const Skills = () => {
         <h2> Skills</h2>
       </div>
       <div className="skills-container">
-        {images.map((image) => (
-          <>{image.svg}</>
+        {images.map((image, index) => (
+          <div key={index}>{image.svg}</div>
         ))}
       </div>
     </div>
