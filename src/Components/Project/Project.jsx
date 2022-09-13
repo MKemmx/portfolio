@@ -22,7 +22,7 @@ const Project = () => {
       tools: ["HTML", "CSS", "React JS", "Express", "Mongo DB", "Tailwind CSS"],
       image: Gym,
       githubLink: "",
-      pageLink: "tanauan-civic-center-reservation.vercel.app",
+      pageLink: "https://tanauan-civic-center-reservation.vercel.app/",
     },
     {
       title: "SPES Online Monitoring System",

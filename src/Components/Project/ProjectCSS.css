@@ -121,3 +121,9 @@
     margin-bottom: 8px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .project-text {
+    width: 90%;
+  }
+}
