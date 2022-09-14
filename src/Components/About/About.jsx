@@ -19,7 +19,10 @@ const About = () => {
           >
             <h2>About Me</h2>
             <p>
-              Hi, I'm Mark Kemm, a passionate web developer from Tanauan, Leyte.
+              I'm a web developer with a focus on the MERN stack, but still
+              exploring other technologies and frameworks that catch my
+              interest! if you're looking for a developer to add to your team,
+              I'd love to hear from you!
             </p>
             <motion.button
               whileHover={{ scale: 1.1 }}
