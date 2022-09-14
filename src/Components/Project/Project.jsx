@@ -34,7 +34,7 @@ const Project = () => {
     },
     {
       title: "Tech Eccomerce",
-      subTitle: "Eccomerce app integration with fakestoreapi data.",
+      subTitle: "Eccomerce app integration with fakestore API.",
       tools: ["HTML", "CSS", "React JS"],
       image: Eccomerce,
       githubLink: "https://github.com/MKemmx/eccomerce-front-end",
