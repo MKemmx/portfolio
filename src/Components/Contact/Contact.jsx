@@ -69,7 +69,15 @@ const Contact = () => {
 
         <div className="box1">
           <p className="contact-title">Others</p>
-          <div className="contact-details">
+          <div
+            onClick={() => {
+              window.open(
+                "https://drive.google.com/file/d/1p3g_Tmm3UsLfIHtNecwsotugl8aTYhLj/view",
+                "_blank"
+              );
+            }}
+            className="contact-details"
+          >
             <AiFillFileWord className="contact-icon" size={24} />
             <p> Resume </p>
           </div>

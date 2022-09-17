@@ -25,6 +25,12 @@ const About = () => {
               I'd love to hear from you!
             </p>
             <motion.button
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1p3g_Tmm3UsLfIHtNecwsotugl8aTYhLj/view",
+                  "_blank"
+                );
+              }}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               className="resume-btn"
