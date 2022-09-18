@@ -27,7 +27,7 @@ const About = () => {
             <motion.button
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1p3g_Tmm3UsLfIHtNecwsotugl8aTYhLj/view",
+                  "https://drive.google.com/file/d/1vgRz6BWXdgmGTot7u2f9_othhXeA4oGX/view",
                   "_blank"
                 );
               }}
