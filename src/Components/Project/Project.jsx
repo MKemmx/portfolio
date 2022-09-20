@@ -13,6 +13,7 @@ import RPS from "../../ProjectImages/rps.png";
 import Eccomerce from "../../ProjectImages/eccomerce-react.png";
 import Spes from "../../ProjectImages/spes-system.png";
 import Gym from "../../ProjectImages/reservation-system.png";
+import Easybank from "../../ProjectImages/easy-bank.png";
 
 const Project = () => {
   const projects = [
@@ -56,6 +57,14 @@ const Project = () => {
       image: RPS,
       githubLink: "https://github.com/MKemmx/rock-paper-scissors-lizard-spock",
       pageLink: "https://rock-paper-scissors-lizard-spock-hazel.vercel.app/",
+    },
+    {
+      title: "Easy Bank Landing Page",
+      subTitle: "Front-end mentor challenge.",
+      tools: ["HTML", "SCSS", "Javascript"],
+      image: Easybank,
+      githubLink: "https://github.com/MKemmx/Easybank-Landing-Page",
+      pageLink: "https://easybank-landing-page-mkemmx.vercel.app/",
     },
   ];
 
