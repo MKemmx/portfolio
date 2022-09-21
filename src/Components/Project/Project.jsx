@@ -14,6 +14,7 @@ import Eccomerce from "../../ProjectImages/eccomerce-react.png";
 import Spes from "../../ProjectImages/spes-system.png";
 import Gym from "../../ProjectImages/reservation-system.png";
 import Easybank from "../../ProjectImages/easy-bank.png";
+import BookMark from "../../ProjectImages/book-mark.png";
 
 const Project = () => {
   const projects = [
@@ -60,11 +61,20 @@ const Project = () => {
     },
     {
       title: "Easy Bank Landing Page",
-      subTitle: "Front-end mentor challenge.",
+      subTitle: "A Front-end mentor challenge.",
       tools: ["HTML", "SCSS", "Javascript"],
       image: Easybank,
       githubLink: "https://github.com/MKemmx/Easybank-Landing-Page",
-      pageLink: "https://easybank-landing-page-mkemmx.vercel.app/",
+      pageLink:
+        "https://easy-bankk-landing-page-clone-fronted-mentor.vercel.app/",
+    },
+    {
+      title: "Book Mark Landing Page",
+      subTitle: "A Front-end mentor challenge.",
+      tools: ["HTML", "SCSS", "Javascript"],
+      image: BookMark,
+      githubLink: "https://github.com/MKemmx/Book-Mark-Landing-Page",
+      pageLink: "https://book-mark-landing-page.vercel.app/",
     },
   ];
 
