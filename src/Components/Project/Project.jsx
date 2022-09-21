@@ -66,7 +66,7 @@ const Project = () => {
       image: Easybank,
       githubLink: "https://github.com/MKemmx/Easybank-Landing-Page",
       pageLink:
-        "https://easy-banq-landing-page-clone-fronted-mentor.vercel.app/",
+        "https://fronted-mentor-landing-page-clone-fronted-mentor.vercel.app/",
     },
     {
       title: "Book Mark Landing Page",
