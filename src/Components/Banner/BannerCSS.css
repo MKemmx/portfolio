@@ -196,6 +196,11 @@
     padding: 40px;
   }
 
+  .sm-icon {
+    width: 47px;
+    height: 47px;
+  }
+
   .banner-left {
     text-align: center;
     width: 100%;
