@@ -7,6 +7,16 @@ import Typewriter from "typewriter-effect";
 // Banner Image
 import BannerSVG from "../../svg/coding.svg";
 
+// Open new tab utility
+import { openInNewTab } from "../../utils/OpenTab";
+
+// React Icons
+import {
+  RiLinkedinBoxFill,
+  RiFacebookBoxFill,
+  RiGithubFill,
+} from "react-icons/ri";
+
 const Banner = () => {
   return (
     <div id="home" className="banner">
@@ -44,6 +54,32 @@ const Banner = () => {
                 .start();
             }}
           />
+
+          <div className="socialmedia-container">
+            <RiLinkedinBoxFill
+              onClick={() => {
+                openInNewTab("https://www.linkedin.com/in/mkemmx/");
+              }}
+              className="sm-icon"
+              size={40}
+            />
+            <RiGithubFill
+              onClick={() => {
+                openInNewTab("https://github.com/MKemmx");
+              }}
+              className="sm-icon"
+              size={40}
+            />
+            <RiFacebookBoxFill
+              onClick={() => {
+                openInNewTab(
+                  "https://www.facebook.com/profile.php?id=100070714667661"
+                );
+              }}
+              className="sm-icon"
+              size={40}
+            />
+          </div>
         </div>
         <div
           data-aos="fade-left"
