@@ -15,6 +15,7 @@ import Spes from "../../ProjectImages/spes-system.png";
 import Gym from "../../ProjectImages/reservation-system.png";
 import Easybank from "../../ProjectImages/easy-bank.png";
 import BookMark from "../../ProjectImages/book-mark.png";
+import Freelancer from "../../ProjectImages/freelancer-landingpage.png";
 
 const Project = () => {
   const projects = [
@@ -56,8 +57,16 @@ const Project = () => {
       subTitle: "Front-end mentor challenge.",
       tools: ["HTML", "CSS", "React JS"],
       image: RPS,
-      githubLink: "https://github.com/MKemmx/rock-paper-scissors-lizard-spock",
+      githubLink: "https://github.com/MKemmx/freelancer_landing_page",
       pageLink: "https://rock-paper-scissors-lizard-spock-hazel.vercel.app/",
+    },
+    {
+      title: "Freelancer Landing Page ",
+      subTitle: "Landing Page UI challenge.",
+      tools: ["HTML", "SCSS", "Javascript"],
+      image: Freelancer,
+      githubLink: "https://github.com/MKemmx/freelancer_landing_page",
+      pageLink: "https://freelancer-landing-page.vercel.app/",
     },
     {
       title: "Easy Bank Landing Page",
